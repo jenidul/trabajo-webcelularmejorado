@@ -1,0 +1,204 @@
+*{
+    border:0.1em;
+    margin:0.1em;;
+    padding:0.1em;
+}
+header figure img
+{
+    float:right;
+    padding:0.5em 0.5em 0 0;
+    width:55px;
+}
+body 
+{
+    background:url(plantilla.jpg);
+    font-family: arial;
+    font-size: 16px;
+}
+header
+{
+	background:url(sombra.png);
+    margin: 2px auto;
+    max-width: 99%;
+    text-align:center;
+}
+header h1
+{
+	color: orange;
+	font-size: 4em;
+	text-shadow:2px 2px magenta;
+}
+header,nav,section#contenedor,footer
+{
+    background:url(sombra.png);
+    margin:0 auto;
+    text-align:center;   
+}
+aside
+{
+    background: rgba(255,242,18,0.5);
+	color:rgb(32,30,30);
+    height:490px;
+}
+section#contenedor
+{
+	background: rgba(255,242,18,0.5);
+	color:rgb(32,30,30);
+    margin: 0 auto;
+    max-width: 99%;
+}
+section#contenedor figure img
+{
+    float:right;
+    padding:0.5em 0.5em 0 0;
+    width:50px;
+}
+#ash
+{
+    float:right;
+    margin:7px;
+    padding:3px;
+    width:20%;
+}
+#sam
+{
+    float:left;
+    margin:7px;
+    padding:4px;
+}
+h4
+{
+    color:lime;
+    float:left;
+    text-align:center;
+    text-shadow:1px 1px blue;
+}
+section#love{background-color:rgba(255,242,18,0.5);}
+p{
+    color:aqua;
+    text-shadow:1px 1px black;
+}
+nav
+{
+    background:rgba(125,2,11,0.5);
+    color:fuchsia;
+    height:2px;
+    margin:0 auto;
+    max-width:92.6%;
+    padding:3em;
+    text-align:center;
+}
+#due{
+    width:90%;
+}
+nav a{
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover{
+    color:blue;
+}
+nav div ul{
+    list-style:none;
+}
+div li {
+    display:inline-block;
+    padding: 0.1em;
+    vertical-align: top;
+}
+div a {
+    background: aqua;
+    border: 0.1em solid aqua;
+    border-radius: 0.25em;
+    color: green;
+    display: block;
+    font-family:Helvetica, Verdana;
+    font-size: 1.1em;
+    padding: 0.2em;
+}
+#tab a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#tab a:hover{
+    color:purple;
+}
+#tab div ul{
+    list-style:none;
+}
+div#tab li {
+    display:inline-block;
+    padding: 0.1em;
+    vertical-align: top;
+}
+div#tab a {
+    background: pink;
+    border: 0.2em solid green;
+    border-radius: 0.25em;
+    color: blue;
+    display: block;
+    font-family:Helvetica, Verdana;
+    font-size: 1.1em;
+    padding: 0.2em;
+}
+@media (max-width: 480px) {
+    nav {
+        display: none;
+    }
+    footer{
+        display: block;
+    }
+    h4{display:block;}
+    section#contenedor {
+        display: block;
+        width: 100%;
+    }
+    header{
+        width: 40%;
+        font-size: 1em;
+    }
+}
+    aside h3
+    {
+        color:purple;
+        text-align:center;
+    }
+@media (min-width: 700px) {
+    aside {
+        display: none;
+        width: 55%;
+    }
+    section#contenedor {
+        width: 60%;
+        margin: 0;
+        padding: 0;
+    }
+    section#contenedor, aside {
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+@media (min-width: 1000px) {
+    aside {
+        display: none;
+        width: 36%;
+    }
+    section#contenedor {
+        width: 63%;
+        margin: 0;
+        padding: 0;
+    }
+    section#contenedor, aside {
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+footer
+{
+    background:rgba(255,242,18,0.5);
+    color:blue;
+    max-width:97%;
+    padding:1em;
+    text-align:center;
+}

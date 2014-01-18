@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TABLAS</title>
+    <link rel="stylesheet" href="estylo.css">
+</head>
+<body>
+    <header>
+        <figure>
+		    <img src="images/google.jpg" alt="google" />
+		    <img src="images/twitter.jpg" alt="twitter" />
+		    <img src="images/facebook.jpg" alt="facebook" />
+		</figure>
+        <br/><br/><br/><br/><br/>
+        <div id="logo">
+            <h1>Celular City</h1>	
+        </div>
+    </header>
+    <section>
+        <article>
+            <h1>Pedido</h1>   
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Detalle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>nombre</td>
+                        <td><input type="nombre" id="cantidad"></td>    
+                    </tr> 
+                    <tr>
+                        <td>direccion</td>
+                        <td><input type="direccion" id="cantidad"></td>    
+                    </tr>
+                    <tr>
+                        <td>producto</td>
+                        <td><input type="text" id="cantidad"></td>    
+                    </tr> 
+                    <tr>
+                        <td>cantidad</td>
+                        <td><input type="number" id="cantidad"></td>    
+                    </tr>
+                    <tr>
+                        <td>pago:</td>
+                        <td>
+                             <input type="radio" id="cantidad">efectivo 
+                             <input type="radio" id="cantidad">tarjeta
+                        </td>  
+                    </tr>
+                    <tr>
+                        <td><button type="reset">cancelar</button></td>      
+                        <td><button type="submit">pagar</button></td>    
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+</body>
+</html>

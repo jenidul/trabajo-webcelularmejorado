@@ -1,0 +1,70 @@
+*{
+    border:0.1em;
+    margin:0.1em;;
+    padding:0.1em;
+}
+header figure img
+{
+    float:right;
+    padding:0.5em 0.5em 0 0;
+    width:55px;
+}
+body 
+{
+    background:url(plantilla.jpg);
+    font-family: arial;
+    font-size: 16px;
+}
+header
+{
+	background:url(sombra.png);
+    margin: 2px auto;
+    max-width: 99%;
+    text-align:center;
+}
+header h1
+{
+	color: white;
+	font-size: 4em;
+	text-shadow:2px 2px fuchsia;
+}
+table
+{
+    background-color:#003322;
+    float:left;
+    width:70%;
+}
+table thead
+{
+    background:fuchsia;
+    color:lime;
+    font-size:1.4em;
+}
+table tbody
+{
+    background:orange; 
+    color:white;
+}
+table tbody tr td input
+{
+    background:pink;
+    border:2px yellow solid;  
+}
+td
+{
+    color:#003;
+    font-size:1em;
+    text-align:center;    
+}
+section
+{
+    background:#66f;
+    box-shadow:2px 2px orange;
+    margin:2px 0 0 0;
+    padding:2px 0 0 1px;
+    height:300px;
+}
+section article
+{
+    padding:2px 3em  3px 7em;
+}
